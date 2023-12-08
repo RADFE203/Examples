@@ -16,27 +16,21 @@
 
 
 > Push the New Branch to Remote Repository
+> 
 > ```bash
 > git push -u origin muratvuranok
 > ```
- 
-## Rebase
 
-> **Update the main branch**
+> Deleting a Local Branch
+>
 > ```bash
->  git checkout main
+>   git branch -d muratvuranok
 > ```
 
+
+> Delet local branch after push
+>
 > ```bash
->  git pull
+>    git push origin --delete bug-fix
 > ```
 
-> **Switch to Your Feature Branch**
-> ```bash
->  git checkout muratvuranok
-> ```
-
-> **Start the Rebase**
-> ```bash
-> git rebase main 
-> ```
