@@ -21,7 +21,6 @@
 > git push -u origin muratvuranok
 > ```
 
-
 > Deleting a Local Branch
 >
 > ```bash
@@ -34,3 +33,4 @@
 > ```bash
 >    git push origin --delete bug-fix
 > ```
+
