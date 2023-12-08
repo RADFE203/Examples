@@ -19,3 +19,25 @@
 > ```bash
 > git push -u origin muratvuranok
 > ```
+
+
+## Rebase
+
+> **Update the main branch**
+> ```bash
+>  git checkout main
+> ```
+
+> ```bash
+>  git pull
+> ```
+
+> **Switch to Your Feature Branch**
+> ```bash
+>  git checkout muratvuranok
+> ```
+
+> **Start the Rebase**
+> ```bash
+> git rebase main 
+> ```
